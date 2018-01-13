@@ -1,5 +1,4 @@
-`<!DOCTYPE html>
-<html>
+`<html>
     <head>
         <title>DynoMath - Home</title>
     <meta charset="utf-8">
