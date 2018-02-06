@@ -1,0 +1,128 @@
+::-webkit-scrollbar-track-piece { width: 10px; background-color: #ffffff; }
+::-webkit-scrollbar { width: 11px; height: 6px }
+::-webkit-scrollbar-thumb {  background-color: #555555; }
+::-webkit-scrollbar-thumb:hover { background: rgb(155, 110, 198); }
+
+body {
+    /*background-color: rgb(155, 110, 198);*/
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    margin: 20px;
+    padding-top: 8px;
+    align-items: center;
+}
+ 
+.container {
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+}
+
+.jumbotron {
+    background-color: rgb(140, 98, 172);
+    height: 400px;
+    justify-content: center;
+}
+
+.billboard {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+h2.billboard {
+    font-size: 55px;
+}
+
+h4.billboard {
+    font-size: 25px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bio {
+    grid-area: 1 / 2 / 4 / 5;
+    font-size: 20px;
+    color: rgb(111, 111, 111);
+    background-color: white;
+    
+}
+
+.alemany-img {
+    grid-area: 1 / 6 / 4 / 9;
+}
+
+.capstone-img {
+    grid-area: 4 / 2 / 7 / 5;
+    background-image: url('https://i1.wp.com/siskorea.org/wp-content/uploads/2015/11/AP-Capstone.jpg?resize=1080%2C350&ssl=1');
+    padding-left: 0;
+    display: inline-block;
+}
+
+.capstone {
+    grid-area: 4 / 6 / 7 / 9;
+    font-size: 1.4em;
+    padding-right: 2em;
+    color: rgb(152, 152, 152);
+}
+
+.contact-info {
+    grid-area: 7 / 2 / 8 / 9;
+    align-self: center;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.home-btn {
+    grid-area: 8 / 3 / 9 / 4;
+}
+
+.practice-btn {
+    grid-area: 8 / 5 / 9 / 6;
+}
+
+.blog-btn {
+    grid-area: 8 / 7 / 9 / 8;
+}
+
+.grey-space {
+    grid-area: 4 / 5 / 7 /6;
+}
+
+.capstone-img,.capstone,.grey-space {
+    background-color: rgb(248, 248, 248);
+    padding-top: 1.5em;
+}
+
+.home-btn,.practice-btn,.blog-btn {
+    object-fit: fill;
+    align-self: center;
+    font-size: 1.3em;
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+    text-align: center;
+    color: white;
+    border-color: rgba(226, 147, 0, 0.79);
+    background-color: rgba(235, 153, 0, 0.79);
+}
+
+.bio,.capstone,.contact-info {
+    font-family: "Candara", sans-serif;
+    font-weight: 350;
+    justify-self: center;
+}
+
+.text-right {
+    font-size: 17px;
+    align-self: absolute;
+}

@@ -1,0 +1,167 @@
+::-webkit-scrollbar-track-piece { width: 10px; background-color: #ffffff; }
+::-webkit-scrollbar { width: 11px; height: 6px }
+::-webkit-scrollbar-thumb {  background-color: #555555; }
+::-webkit-scrollbar-thumb:hover { background: rgb(155, 110, 198); }
+
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    margin: 20px;
+    padding-top: 8px;
+    align-items: center;
+}
+ 
+.container {
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+}
+
+section {
+    background-image: url('https://masterofmemory.com/wp-content/uploads/2015/11/443-1024x675.jpg');
+    height: 400px;
+    justify-content: center;
+}
+
+.billboard {
+    /*background-color: hsla(35, 60%, 80%, 0.85);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+h2.billboard {
+    font-size: 55px;
+}
+
+h4.billboard {
+    font-size: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr 2fr 2fr 3fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "first-topic second-topic third-topic fourth-topic fifth-topic"
+        "quote-paragraph quote-paragraph quote-paragraph quote-paragraph quote-paragraph"
+        "quote-img quote-img quote-img quote-img quote-img"
+        "dscr-paragraph dscr-paragraph dscr-paragraph dscr-img dscr-img"
+        "goal-img goal-img goal-paragraph goal-paragraph goal-paragraph"
+        "blog blog blog blog blog"
+        "btn-primary btn-primary btn-primary btn-primary btn-primary"
+        "contact-footer contact-footer contact-footer contact-footer contact-footer";
+}
+
+.first-topic {
+    grid-area: first-topic;
+}
+
+.second-topic {
+    grid-area: second-topic;
+}
+
+.third-topic {
+    grid-area: third-topic;
+}
+
+.fourth-topic {
+    grid-area: fourth-topic;
+}
+
+.fifth-topic {
+    grid-area: fifth-topic;
+}
+
+.quote-paragraph {
+    grid-area: quote-paragraph;
+    padding-top: 2em;
+    text-align: center;
+    color: hsl(0, 0%, 40%);
+    font-family: "Avant Garde", sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.quote-img {
+    grid-area: quote-img;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.dscr-paragraph {
+    grid-area: dscr-paragraph;
+    padding-left: 1.5em;
+    font-family: "Avant Garde", sans-serif;
+    font-size: 1.7em;
+    font-weight: 350;
+    color: hsl(0, 0%, 40%);
+}
+
+.dscr-img {
+    grid-area: dscr-img;
+    padding-right: 1.5em;
+}
+
+.goal-img {
+    grid-area: goal-img;
+    padding-left: 1.5em;
+}
+
+.goal-paragraph {
+    grid-area: goal-paragraph;
+    padding-right: 1.5em;
+    font-family: "Avant Garde", sans-serif;
+    font-size: 1.7em;
+    font-weight: 200;
+    text-align: left;
+    align-self: center;
+}
+
+.blog {
+    grid-area: blog;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: "Avant Garde", sans-serif;
+    font-weight: 250;
+}
+
+.btn-primary {
+    grid-area: btn-primary;
+    align-self: center;
+    justify-self: center;
+}
+
+.contact-footer {
+    grid-area: contact-footer;
+    font-size: 1.3em;
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+    float: left;
+    background-color: rgba(12, 82, 12, 0.89);
+    color: white;
+    align-self: center;
+    padding: 1.4em;
+}
+
+.btn-primary,
+.nav {
+    font-size: 1.3em;
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+    text-align: center;
+    background-color: rgba(12, 82, 12, 0.89);
+}
+
+.nav {
+    align-self: center;
+    padding: 2em 0;
+}

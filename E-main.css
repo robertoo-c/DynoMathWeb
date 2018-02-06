@@ -1,0 +1,115 @@
+::-webkit-scrollbar-track-piece { width: 10px; background-color: #ffffff; }
+::-webkit-scrollbar { width: 11px; height: 6px }
+::-webkit-scrollbar-thumb {  background-color: #555555; }
+::-webkit-scrollbar-thumb:hover { background: #713fa2; }
+
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    margin: 20px;
+    padding-top: 8px;
+    align-items: center;
+}
+ 
+.container {
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+}
+
+section {
+    background-image: url('https://allentertainment.de/wp-content/uploads/Hintergrund-Blau.jpg');
+    height: 400px;
+    justify-content: center;
+}
+
+.billboard {
+    /*background-color: hsla(35, 60%, 80%, 0.85);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+h2.billboard {
+    font-size: 55px;
+}
+
+h4.billboard {
+    font-size: 25px;
+}
+
+.practice-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.variables {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.var-par {
+    grid-area: 2 / 2 / 4 / 4;
+}
+
+.computation {
+    grid-area: 1 / 5 / 2 / 7;
+}
+
+.comp-par {
+    grid-area: 2 / 5 / 4 / 7;
+}
+
+.roots {
+    grid-area: 5 / 2 / 6 / 4;
+}
+
+.roots-par {
+    grid-area: 6 / 2 / 8 / 4;
+}
+
+.exponents {
+    grid-area: 5 / 5 / 6 / 7;
+}
+
+.exponents-par {
+    grid-area: 6 / 5 / 8 / 7;
+}
+
+.quads {
+    grid-area: 9 / 3 / 10 / 6;
+}
+
+.quads-par {
+    grid-area: 10 / 3 / 11 / 6;
+}
+
+.variables,.computation,.roots,.exponents,.quads {
+    padding: 1.5em 0;
+    object-fit: fill;
+    align-self: center;
+    font-size: 1.3em;
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(19, 127, 168, 0.84);
+}
+
+.var-par,.comp-par,.roots-par,.exponents-par,.quads-par {
+    padding-top: 0.5em;
+    font-size: 1.4em;
+    font-family: "Avant Garde", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    justify-self: center;
+    border-style: solid;
+    border-width: 2px;
+}
