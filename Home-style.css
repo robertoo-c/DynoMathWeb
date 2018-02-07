@@ -1,0 +1,54 @@
+.row {
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+    padding-top: 10px;
+}
+.title {
+    font-size: 40px;
+}
+.main-nav {
+    float: right;
+}
+.main-nav li{
+    list-style-type: none;
+    display: inline-block;
+    align-content: center;
+    float:right;
+    padding: 30px 15px 15px 15px;
+    font-size: 17px;
+}
+.main {
+    align-content: center;
+    justify-content: center;
+}
+jumbotron {
+    height: 600px;
+    justify-content: center;
+}
+.billboard {
+    /*background-color: hsla(35, 60%, 80%, 0.85);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+h2.billboard {
+    font-size: 55px;
+}
+
+h4.billboard {
+    font-size: 25px;
+}
+
+.nav-topics {
+    font-size: 23px;
+    border-style: dashed;
+    background-color: rgba(5, 111, 0, 0.81);
+}
+#first-topic,#second-topic,#third-topic,#fourth-topic {
+    padding: 20px 0;
+}
