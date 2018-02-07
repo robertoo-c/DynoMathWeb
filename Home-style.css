@@ -1,27 +1,26 @@
-.row {
-    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
-    padding-top: 10px;
-}
 .title {
     font-size: 40px;
 }
 .main-nav {
     float: right;
+    text-align: center;
 }
 .main-nav li{
     list-style-type: none;
     display: inline-block;
-    align-content: center;
+    text-align: center;
     float:right;
-    padding: 30px 15px 15px 15px;
+    padding: 20px 15px 15px 15px;
     font-size: 17px;
 }
 .main {
     align-content: center;
     justify-content: center;
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+    padding-top: 10px;
 }
-jumbotron {
-    height: 600px;
+.jumbotron {
+    height: 400px;
     justify-content: center;
 }
 .billboard {
@@ -29,6 +28,7 @@ jumbotron {
     background-color: rgba(255, 255, 255, 0.8);
     position: relative;
     justify-content: center;
+    font-family: "Optima", "Calibri", "Candara", "Arial", sans-serif;
     text-align: center;
     display: block;
     padding-top: 30px;
@@ -46,9 +46,19 @@ h4.billboard {
 
 .nav-topics {
     font-size: 23px;
-    border-style: dashed;
-    background-color: rgba(5, 111, 0, 0.81);
+    border-style: solid;
+    background-color: rgba(39, 88, 35, 0.91);
+    font-family: "Chalkboard", "Comic sans", sans-serif;
 }
 #first-topic,#second-topic,#third-topic,#fourth-topic {
     padding: 20px 0;
+}
+#einstein-quote {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-style: "Optima", "Calibri", "Candara", "Arial", sans-serif;
+}
+#einstein-img {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
